@@ -1,0 +1,36 @@
+.sideMenu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: calc(100vh - 72px);
+  background-color: #1b2430;
+  padding-top: 72px;
+}
+.subtitle {
+  font-size: 17px;
+  text-align: center;
+  color: #d6d5a8b9;
+  font-style: italic;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #1b2430;
+  color: #d6d5a8;
+  font-size: 20px;
+  padding-left: 15%;
+  text-decoration: none;
+  box-sizing: border-box;
+  cursor: default;
+  gap: 12px;
+}
+.unSelected:hover {
+  background-color: #2a44667c;
+  color: #d6d5a8;
+}
+.selected {
+  background-color: #3a5e8dbe;
+}

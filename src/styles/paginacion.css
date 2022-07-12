@@ -1,0 +1,32 @@
+.paginacion {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.paginacion div svg{
+  fill: rgb(141, 133, 133);
+  padding-top: 10px;
+}
+.paginacion div svg:hover{
+  cursor: default;
+  fill: black;
+}
+.pagina {
+  cursor: default;
+  padding: 5px 8px;
+  font-size: 25px;
+}
+.pagina:hover{
+  background-color: rgb(141, 133, 133);
+  color: white;
+  border-radius: 1000px;
+}
+.active {
+  background-color: black;
+  color: white;
+  border-radius: 1000px;
+  cursor: default;
+}

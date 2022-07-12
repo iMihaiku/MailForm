@@ -1,0 +1,95 @@
+.Mensajes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.cuerpoMensaje {
+  width: 100%;
+}
+.contenidoMensaje {
+  width: 100%;
+  display: flex;
+  min-height: 45px;
+  font-size: 18px;
+  padding: 15px 0;
+}
+.contenidoMensaje label {
+  padding-left: calc(20px + 10%);
+}
+.contenidoMensaje div{
+  padding: 0 20px;
+}
+.Mensaje {
+  display: grid;
+  grid-template-columns: 10% 25% 25% 10% 25%;
+  gap: 1%;
+  width: 100%;
+  border-top: 1px solid #d0d1d3;
+  box-sizing: border-box;
+}
+.Mensaje div {
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+}
+.favorito > div > svg:hover {
+  fill: #a5a483 !important;
+}
+.HeaderList {
+  width: 100%;
+  padding: 0 10px;
+}
+.HeaderList select {
+  width: 230px;
+  height: 33px;
+  border: 1px solid #b4b1b1;
+  border-radius: 5px;
+  appearance: none;
+  font-size: 17px;
+  padding: 0 12px;
+}
+.HeaderList select option {
+  font-size: 17px;
+  padding: 18px 10px;
+}
+.filtros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.buscador {
+  width: 200px;
+  height: 33px !important;
+  border: 1px solid #b4b1b1;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 0 12px;
+}
+.checkLeido {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0 30px;
+}
+.checkLeido input {
+  width: 20px;
+  height: 20px;
+  border: #b4b1b1 0px solid;
+}
+.strongStyle {
+  font-weight: bold;
+}
