@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export default function inputsLogin({ type, name, limpiarCampos, setLimpiarCampos }) {
+export default function InputsLogin({ type, name, limpiarCampos, setLimpiarCampos }) {
   const [value, setValue] = useState('')
   useEffect(() => {
     if (limpiarCampos) {

@@ -54,7 +54,7 @@ export default function RegistroUsuario() {
           </header>
           <form onSubmit={handleRegistro}>
             <div className="logo">
-              <img src={src} />
+              <img src={src} alt='img not found'/>
             </div>
             <div className="logo">
               <label>
