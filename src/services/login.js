@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = 'https://lit-inlet-93494.herokuapp.com'
+const baseURL = 'https://api-rest-mauve.vercel.app'
 
 const login = async({ username, password }) => {
   let error

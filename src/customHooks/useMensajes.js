@@ -10,7 +10,7 @@ export default function useMensajes() {
   useEffect(() => {
     async function axiosData() {
       const res = await axios
-        .get('http://localhost:3001/api/mensajes', { headers: { Authorization: `Bearer ${user.token}` } })
+        .get('https://api-rest-mauve.vercel.app/api/mensajes', { headers: { Authorization: `Bearer ${user.token}` } })
         .catch((res) => {
           console.log(res)
         })
