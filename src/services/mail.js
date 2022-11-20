@@ -1,6 +1,6 @@
 import axios from 'axios'
 const DEFAULT_FILTER = 'FD'
-const baseURL = 'https://lit-inlet-93494.herokuapp.com'
+const baseURL = 'https://api-rest-mauve.vercel.app'
 
 const getMensajes = async(filtro = DEFAULT_FILTER, path) => {
   const user = JSON.parse(localStorage.getItem('user'))
